@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1e293b;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.para {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 30px;
+}
+
+.button {
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  cursor: pointer;
+}
